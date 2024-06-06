@@ -4166,11 +4166,11 @@ This simply calls RUN with the REST of its arguments inside
   "i" #'embark-insert
   "w" #'embark-copy-as-kill
   "q" #'embark-toggle-quit
-  "E" #'embark-export
-  "S" #'embark-collect
-  "L" #'embark-live
-  "B" #'embark-become
-  "A" #'embark-act-all
+  "e" #'embark-export
+  "s" #'embark-collect
+  "l" #'embark-live
+  "b" #'embark-become
+  "a" #'embark-act-all
   "C-s" #'embark-isearch-forward
   "C-r" #'embark-isearch-backward
   "C-SPC" #'mark
